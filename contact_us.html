@@ -2,9 +2,10 @@
 <html>
     <head>
         <title>III% Security Force - Contact Us</title>
-        <link rel="icon" href="III-ts1611415718.jpg" type="image/jpg">
+        <link rel="icon" href="assets/imgs/III-ts1611415718.jpg" type="image/jpg">
         <link rel="stylesheet" href="main.css">
-
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="javascript/email.js"></script>
         <style>
             ul {
                 list-style: none;
@@ -13,44 +14,44 @@
             textarea {
                 resize: none;
             }
-            .hello:link {
+            .us_colors:link {
               color: black;
               background-color: transparent;
               text-decoration: none;
             }
-            .hello:visited {
+            .us_colors:visited {
               color: black;
               background-color: transparent;
               text-decoration: none;
             }
-            #one:hover {
+            #red:hover {
               color: red;
               background-color: transparent;
               text-decoration: underline;
             }
-            #one:active {
+            #red:active {
               color: red;
               background-color: transparent;
               text-decoration: underline;
             }
 
-            #two:hover {
+            #white:hover {
               color: white;
               background-color: transparent;
               text-decoration: underline;
             }
-            #two:active {
+            #white:active {
               color: white;
               background-color: transparent;
               text-decoration: underline;
             }
 
-            #three:hover {
+            #blue:hover {
               color: blue;
               background-color: transparent;
               text-decoration: underline;
             }
-            #three:active {
+            #blue:active {
               color: blue;
               background-color: transparent;
               text-decoration: underline;
@@ -61,22 +62,28 @@
                 padding: 0px;
             }
         </style>
+        <script>
+            function send(){
+                sendEmail(Email);
+            }
+        </script>
     </head>
     <body>
         <div class="box">
             <nav style="list-style: none; list-style-type: none;">
                 <ul>
                     <li>
-                        <a class="hello" id="one"  href="index.html">Home</a> &emsp;
-                        <a class="hello" id="two"  href="about_us.html">About Us</a>  &emsp;
-                        <a class="hello" id="three"  href="gallery.html">Gallery</a>  &emsp;
-                        <a class="hello" id="one"  href="https://ba-forum.com/forum/index.php">Forums</a>  &emsp;
-                        <a class="hello" id="two" href="contact_us.html">Contact Us</a> &emsp;
+                        <a class="us_colors" id="red"  href="index.html">Home</a> &emsp;
+                        <a class="us_colors" id="white"  href="about_us.html">About Us</a>  &emsp;
+                        <a class="us_colors" id="blue"  href="gallery.html">Gallery</a>  &emsp;
+                        <a class="us_colors" id="red"  href="https://ba-forum.com/forum/index.php">Forums</a>  &emsp;
+                        <a class="us_colors" id="white" href="contact_us.html">Contact Us</a> &emsp;
+                        <a class="us_colors" id="blue"  href="Shop/shop_homepage.html">Shop</a>  &emsp;
                     </li>
                 </ul>
             </nav>
 
-            <a href="https://truthsocial.com/@RealChrisHill"><img src="truthsociallogo.png" style="width: 70px; height: 40px; position: absolute; top: 5px; left: 1130px;"></a>
+            <a href="https://truthsocial.com/@RealChrisHill"><img src="assets/imgs/truthsociallogo.png" style="width: 70px; height: 40px; position: absolute; top: 5px; left: 1130px;"></a>
             <div class="box2">
                 <h2 align="center">Interested in III% Security Force? Contact us Today!</h2>
                 <div style="position:absolute; top:100px; left: 200px; font-size: 22px;">
@@ -152,7 +159,7 @@
                     <br>
                     <textarea id="msg" name="msg" style="width: 400px; height:200px; font-size: 20px;" resize="none"></textarea>
                 </div>
-                <input type="button" value="Submit" style="position:absolute; top:500px; left: 570px;">
+                <input type="button" value="Submit" style="position:absolute; top:500px; left: 570px;" onclick="send()")>
                 <br>
                 <br>
                 <br>
