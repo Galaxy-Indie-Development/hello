@@ -1,0 +1,25 @@
+All material contained within this project is trademarked
+and registered by III% Security Force. Any use 
+outside of applications for III% Security Force are
+prohibited by law.
+
+Guidelines
+-----------
+1. Any content within this project may not be used outside of
+applications for III% Security Force.
+2. Upon the personal leaving III% Security Force, They must turnover all files, imgs, videos, etc.
+containing III% Security Force as it is Trademarked and All rights are Reserved, Legal Action will be taken.
+3. Everything that is not public already must be kept private. If you are working
+on a project you may not speak about it until it is released. even then you may not speak
+about certain things from behind the scenes.
+
+Therefore I the developer understand that I may
+not take nor use any of the material within for anything other
+than III% Security Force. If I fail to do so I understand that legal
+repercussions can follow. I the developer agree to turning over all material
+and causing no malicious intent well following the above guidelines set forth
+to allow me the developer to work on these projects.
+
+Developer Name and Date Below
+------------------------------
+BigT 09/29/23
